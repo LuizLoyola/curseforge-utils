@@ -17,7 +17,7 @@
         "128": "/icon-128.png"
     },
     "manifest_version": 2,
-    "name": "CurseForge Modpack Maker Tools",
+    "name": "CurseForge Utils",
     "permissions": [
         "https://www.curseforge.com/*"
     ],
