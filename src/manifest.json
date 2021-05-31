@@ -11,11 +11,11 @@
             "run_at": "document_idle"
         }
     ],
-    // "icons": {
-    //     "16": "/icon.png",
-    //     "32": "/icon.png",
-    //     "128": "/icon.png"
-    // },
+    "icons": {
+        "16": "/icon-16.png",
+        "32": "/icon-32.png",
+        "128": "/icon-128.png"
+    },
     "manifest_version": 2,
     "name": "CurseForge Modpack Maker Tools",
     "permissions": [
