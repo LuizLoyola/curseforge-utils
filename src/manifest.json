@@ -2,7 +2,6 @@
     "content_scripts": [
         {
             "js": [
-                "thirdParty/jquery-3.6.0.min.js",
                 "/main.js"
             ],
             "matches": [
