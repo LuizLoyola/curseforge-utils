@@ -1,0 +1,28 @@
+{
+    "content_scripts": [
+        {
+            "js": [
+                "thirdParty/jquery-3.6.0.min.js",
+                "/main.js"
+            ],
+            "matches": [
+                "https://www.curseforge.com/*"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    // "icons": {
+    //     "16": "/icon.png",
+    //     "32": "/icon.png",
+    //     "128": "/icon.png"
+    // },
+    "manifest_version": 2,
+    "name": "CurseForge Modpack Maker Tools",
+    "permissions": [
+        "https://www.curseforge.com/*"
+    ],
+    "version": "0.1",
+    "web_accessible_resources": [
+        "/*"
+    ]
+}
