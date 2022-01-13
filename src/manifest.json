@@ -1,28 +1,35 @@
 {
-    "content_scripts": [
-        {
-            "js": [
-                "thirdParty/jquery-3.6.0.min.js",
-                "/main.js"
-            ],
-            "matches": [
-                "https://www.curseforge.com/*"
-            ],
-            "run_at": "document_idle"
-        }
-    ],
-    "icons": {
-        "16": "/icon-16.png",
-        "32": "/icon-32.png",
-        "128": "/icon-128.png"
-    },
-    "manifest_version": 2,
-    "name": "CurseForge Utils",
-    "permissions": [
+  "content_scripts": [
+    {
+      "js": [
+        "thirdParty/jquery-3.6.0.min.js",
+        "/main.js"
+      ],
+      "matches": [
         "https://www.curseforge.com/*"
-    ],
-    "version": "0.1",
-    "web_accessible_resources": [
-        "/*"
-    ]
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "/icon-16.png",
+    "32": "/icon-32.png",
+    "128": "/icon-128.png"
+  },
+  "manifest_version": 2,
+  "name": "CurseForge Utils",
+  "permissions": [
+    "tabs",
+    "storage",
+    "https://www.curseforge.com/*"
+  ],
+  "version": "0.2",
+  "web_accessible_resources": [
+    "/*"
+  ],
+  "browser_action": {
+    "default_title": "CurseForge Utils",
+    "default_icon": "/icon-16.png",
+    "default_popup": "popup.html"
+  }
 }

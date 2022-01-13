@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="thirdParty/bootstrap.min.css" rel="stylesheet">
+    <link href="popup.css" rel="stylesheet">
+    <script src="thirdParty/jquery-3.6.0.min.js"></script>
+    <script src="thirdParty/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container pt-2 pb-2 bg-dark text-light">
+    <div class="row">
+        <div class="col-12">
+            <h2><img alt="CurseForge Utils" class="icon" src="icon-128.png"/>CurseForge Utils</h2>
+        </div>
+    </div>
+    <div class="row d-none" id="invalid-page" style="width: 300px">
+        <div class="col-12">
+            <div class="alert alert-danger">
+                This is not a CurseForge page.
+            </div>
+        </div>
+    </div>
+    <div class="row d-none" id="root" style="width: 500px">
+        <div class="col-12">
+            <div class="alert alert-success">
+                Utilities are enabled!
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</div>
+</body>
+</html>
