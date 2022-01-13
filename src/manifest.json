@@ -6,7 +6,8 @@
         "/main.js"
       ],
       "matches": [
-        "https://www.curseforge.com/*"
+        "https://www.curseforge.com/*",
+        "https://www.paypalobjects.com/*"
       ],
       "run_at": "document_idle"
     }
@@ -19,11 +20,10 @@
   "manifest_version": 2,
   "name": "CurseForge Utils",
   "permissions": [
-    "tabs",
-    "storage",
     "https://www.curseforge.com/*"
   ],
-  "version": "0.2",
+  "description": "CurseForge Utilities to speed up your modpack-making!",
+  "version": "0.3.1",
   "web_accessible_resources": [
     "/*"
   ],
