@@ -20,11 +20,10 @@
   "manifest_version": 2,
   "name": "CurseForge Utils",
   "permissions": [
-    "tabs",
     "https://www.curseforge.com/*"
   ],
   "description": "CurseForge Utilities to speed up your modpack-making!",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "web_accessible_resources": [
     "/*"
   ],

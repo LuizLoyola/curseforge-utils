@@ -3,11 +3,11 @@ chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
     let url = tabs[0].url;
 
     $("#loading").addClass("d-none");
-    if (!url.startsWith("https://www.curseforge.com/")) {
+    if (url && url.startsWith("https://www.curseforge.com/")) {
+        $("#root").removeClass("d-none");
+    } else {
         $("#invalid-page").removeClass("d-none");
         return;
-    } else {
-        $("#root").removeClass("d-none");
     }
 });
 
